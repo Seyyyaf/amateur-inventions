@@ -1,0 +1,71 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f0f0f0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Genre Selector */
+#genreSelect {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Comic Card Style */
+.comic-card {
+  background: white;
+  padding: 15px;
+  margin: 20px auto;
+  border-left: 4px solid #007BFF;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Comic Cover Image */
+.cover {
+  width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Comic Text */
+.comic-card h3 {
+  text-align: center;
+  margin: 10px 0 5px;
+  color: #000;
+}
+
+.comic-card p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.comic-card a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.comic-card a:hover {
+  text-decoration: underline;
+}
